@@ -7,13 +7,25 @@ import 'package:flutter/services.dart';
 // - MelodyQuizPage()를 앱의 홈 화면으로 설정
 
 
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.landscapeLeft,
     DeviceOrientation.landscapeRight,
   ]).then((_) {
-    runApp(const MaterialApp(home: MelodyQuizPage()));
+    runApp(const MyApp());
   });
 }
 
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: MelodyQuizPage(),
+    );
+  }
+}
