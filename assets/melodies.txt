@@ -1,0 +1,21 @@
+# Twinkle Twinkle Little Star
+c4:q+c4:q
+g4:q+g4:q
+a4:q+a4:q
+g4:h
+---
+
+# Mary Had a Little Lamb
+e4:q+d4:e+c4:e+d4:e
+e4:q+e4:q+e4:h
+---
+
+# London Bridge is Falling Down
+g4:q+a4:q+g4:q+f4:q
+e4:q+f4:q+g4:h
+---
+
+# Oh! Susanna
+c4:q+e4:q+g4:q
+g4:q+e4:q+c4:q
+---
