@@ -34,6 +34,7 @@ Future<List<List<List<MusicalSymbol>>>> loadMelodies() async {
           _ => NoteDuration.quarter,
         };
 
+
         if (raw == 'rest') {
           final rest = switch (duration) {
             NoteDuration.whole => const Rest(RestType.whole),
